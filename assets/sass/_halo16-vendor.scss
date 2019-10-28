@@ -1,0 +1,26 @@
+
+@import "../../../halo16/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../../halo16/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../../../halo16/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../../../halo16/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+
+@import "../../../halo16/bower_components/components-font-awesome/scss/font-awesome";
+
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+$grid-float-breakpoint:      $screen-md-min  !default;
+
+@mixin mq($point) {
+    @if $point == xs {
+        @content;
+    }
+    @else if $point == sm {
+        @media screen and ('min-width': $screen-xs-max) { @content; }
+    }
+    @else if $point == md {
+        @media screen and ('min-width': $screen-sm-max) { @content; }
+    }
+    @else if $point == lg {
+        @media screen and ('min-width': $screen-md-max) { @content; }
+    }
+}

@@ -1,0 +1,57 @@
+@import 'compass';
+@import 'halo16-vendor';
+
+.halo16_widget {
+    padding:20px 0;;
+
+    .halo16_header {
+        margin-bottom:15px;
+
+        .halo16_subtitle {
+            margin-top:10px;
+            font-weight: bold;
+        }
+    }
+
+    .halo16_content {
+        margin-bottom:15px;
+    }
+
+    .halo16_map{
+        .halo16_map_container{
+            position:relative;
+            padding-bottom: 80%;
+            @include mq(sm) {
+                padding-bottom: 60%;
+            }
+            @include mq(md) {
+                padding-bottom: 80%;
+            }
+        }
+
+        .halo16_map_canvas{
+            position: absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+        }
+    }
+
+    .halo16_read_more {
+        a {
+            display: inline-block;
+            padding: 10px;
+            color: inherit;
+            background: inherit;
+        }
+    }
+
+    .halo16_image{
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+}

@@ -1,0 +1,16 @@
+@import 'compass';
+#halo16-plugin-config-form{
+  h2{
+    margin-bottom: 0;
+    margin-top:30px;
+    text-align: right;
+  }
+  tbody{
+    border-top: 2px solid;
+  }
+  .cp_disabled{
+    opacity: 0.5;
+    pointer-events:none;
+  }
+
+}

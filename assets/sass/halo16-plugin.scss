@@ -1,0 +1,226 @@
+@import 'compass';
+@import 'halo16-vendor';
+
+
+.row-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.col-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+    vertical-align: top;
+}
+
+.col-top {
+    vertical-align: top;
+}
+
+.col-middle {
+    vertical-align: middle;
+}
+
+.col-bottom {
+    vertical-align: bottom;
+}
+
+.text-left{
+    text-align:left ;
+}
+
+.text-center{
+    text-align:center ;
+}
+
+.text-right{
+    text-align:right ;
+}
+
+@media screen and ('max-width':$screen-xs-max) {
+    .row-xs-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .col-xs-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-xs-top {
+        vertical-align: top;
+    }
+
+    .col-xs-middle {
+        vertical-align: middle;
+    }
+
+    .col-xs-bottom {
+        vertical-align: bottom;
+    }
+
+    .text-xs-left{
+        text-align:left;
+    }
+
+    .text-xs-center{
+        text-align:center;
+    }
+
+    .text-xs-right{
+        text-align: right;
+    }
+}
+
+@include mq(sm) {
+    .row-sm-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .col-sm-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-sm-top {
+        vertical-align: top;
+    }
+
+    .col-sm-middle {
+        vertical-align: middle;
+    }
+
+    .col-sm-bottom {
+        vertical-align: bottom;
+    }
+
+    .text-sm-left{
+        text-align:left;
+    }
+
+    .text-sm-center{
+        text-align:center;
+    }
+
+    .text-sm-right{
+        text-align: right;
+    }
+}
+
+@include mq(md) {
+    .row-md-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .col-md-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-md-top {
+        vertical-align: top;
+    }
+
+    .col-md-middle {
+        vertical-align: middle;
+    }
+
+    .col-md-bottom {
+        vertical-align: bottom;
+    }
+
+    .text-md-left{
+        text-align:left;
+    }
+
+    .text-md-center{
+        text-align:center;
+    }
+
+    .text-md-right{
+        text-align: right;
+    }
+}
+
+@include mq(lg) {
+    .row-lg-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .col-lg-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-lg-top {
+        vertical-align: top;
+    }
+
+    .col-lg-middle {
+        vertical-align: middle;
+    }
+
+    .col-lg-bottom {
+        vertical-align: bottom;
+    }
+
+    .text-lg-left{
+        text-align:left;
+    }
+
+    .text-lg-center{
+        text-align:center;
+    }
+
+    .text-lg-right{
+        text-align: right;
+    }
+}
+
+.aligncenter {
+    display: block;
+    margin: auto;
+}
+
+.alignright {
+    display: block;
+    float: right;
+    margin-left: 15px;
+}
+
+.alignleft {
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.nopadding-right{
+    padding-right: 0 !important;
+}
+
+.nopadding-left{
+    padding-left: 0 !important;
+}

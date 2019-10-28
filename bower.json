@@ -1,0 +1,27 @@
+{
+  "name": "halo16",
+  "version": "1.0.0",
+  "authors": [
+    "Michele Bertuccioli <michele@bertuccioli.me>",
+    "Giacomo Rossi <giacomo.rossi@retorica.net>"
+  ],
+  "description": "Halo16 Plugin",
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "http://michele.bertuccioli.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "components-font-awesome": "^4.7.0",
+    "wowjs": "latest"
+  }
+}
